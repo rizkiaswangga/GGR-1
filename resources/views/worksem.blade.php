@@ -2,107 +2,136 @@
 <html>
 
 <head>
-    <link rel="stylesheet" href="globals.css" />
-    <link rel="stylesheet" href="styleguide.css" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="globals-comwork.css" />
+    <link rel="stylesheet" href="styleguide-comwork.css" />
+    <link rel="stylesheet" href="style-comwork.css" />
     <link rel="stylesheet" href="navbar.css" />
-    <link rel="stylesheet" href="globals-footer.css" />
-    <link rel="stylesheet" href="styleguide-footer.css" />
-    <link rel="stylesheet" href="style-footer.css" />
 </head>
 
 <body>
-    <div class="main-page">
+    <div class="education">
         <div class="div">
-
-            <div class="section-2">
-                <div class="div-application">
-                    <div class="div-row">
-                        <div class="div-col-xs">
-                            <div class="text-wrapper-4">NEW! Product available now!</div>
-                            <div class="p-copytext">
-                                <p class="docker-is-a-tool-for">
-                                    Docker is a tool for running applications and services in small, light-weight
-                                    &#34;containers&#34;
-                                    which do not interfere with your local machine&#39;s installed software or
-                                    configuration. This means
-                                    you don&#39;t have to worry about configuring or setting up complicated development
-                                    tools such as
-                                    web servers and databases on your local machine.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="overlap-group">
-                            <img class="picture-key" src="img/picture-key-automation-products-highres-en-1-fix696x391-webp.png" />
-                        </div>
-                    </div>
-                    <div class="link" id="fom2">
-                        <div class="text-wrapper-5">Find out more</div>
-                    </div>
-                </div>
-                <div class="div-row-2">
-                    <div class="link-2">
-                        <div class="picture-energy-wrapper">
-                            <img class="picture-energy" src="img/picture-energy-saving-services-screen-fix496x661-webp-1.png" />
-                        </div>
-                        <div class="text-wrapper-9">Sustainability</div>
-                    </div>
-                    <div class="link-3">
-                        <div class="picture-energy-wrapper">
-                            <img class="picture-energy" src="img/picture-energy-saving-services-screen-fix496x661-webp-1.png" />
-                        </div>
-                        <div class="text-wrapper-9">Sustainability</div>
-                    </div>
-                    <div class="link-4">
-                        <div class="picture-energy-wrapper">
-                            <img class="picture-energy" src="img/picture-energy-saving-services-screen-fix496x661-webp.png" />
-                        </div>
-                        <div class="text-wrapper-10">Digitalisation</div>
-                    </div>
-                    <div class="link-3">
-                        <div class="picture-energy-wrapper">
-                            <img class="picture-energy" src="img/picture-energy-saving-services-screen-fix496x661-webp-1.png" />
-                        </div>
-                        <div class="text-wrapper-9">Sustainability</div>
-                    </div>
-                </div>
-
-                {{-- <div class="div-row-4">
-                    <div class="link-6">
-                        <div class="div-accordion">
-                            <img class="picture-energy"
-                                src="img/picture-energy-saving-services-screen-fix496x661-webp-2.png" />
-                        </div>
-                        <div class="div-col-md">
-                            <div class="text-wrapper-6">Energy Saving Services</div>
-                            <div class="p-copytext-2">
-                                <div class="text-wrapper-7">
-                                    aaaaaaaaaaaaaaa
-                                    <br><br><br><br><br><br><br><br><br><br>
-                                    <button class="button-4" id="fom3">
-                                        <div class="text-wrapper-5">Find out more</div>
-                                    </button>
+            <div class="overlap">
+                <div class="section">
+                    <div class="div-application">
+                        <div class="div-row">
+                            <div class="div-col-xs">
+                                <div class="text-wrapper">NEW! Product available now!</div>
+                                <div class="p-copytext">
+                                    <p class="docker-is-a-tool-for">
+                                        Docker is a tool for running applications and services in small, light-weight
+                                        &#34;containers&#34;
+                                        which do not interfere with your local machine&#39;s installed software or
+                                        configuration. This
+                                        means you don&#39;t have to worry about configuring or setting up complicated
+                                        development tools
+                                        such as web servers and databases on your local machine.
+                                    </p>
                                 </div>
                             </div>
-                            <div class="text-wrapper-8">Energy Saving Services</div>
+                            <div class="overlap-group">
+                                <img class="picture-key"
+                                    src="img/picture-key-automation-products-highres-en-1-fix696x391-webp-1.png" />
+                            </div>
+                        </div>
+                        <div class="link">
+                            <div class="text-wrapper-2">Find out more</div>
                         </div>
                     </div>
-                    <div class="link-3">
-                        <div class="picture-energy-wrapper">
-                            <img class="picture-energy"
-                                src="img/picture-energy-saving-services-screen-fix496x661-webp-1.png" />
+                    <div class="text-wrapper-3">Competition</div>
+                    <footer class="footer">
+                        <div class="div-footer">
+                            <img class="div-footer-social" src="img/div-footer-social-wlq8h.svg" />
+                            <div class="div-footer-links">
+                                <div class="div-footer-links-2">
+                                    <div class="div-footer-links-3">
+                                        <div class="text-wrapper-4">Highlights</div>
+                                        <div class="div-2">
+                                            <div class="div-wrapper">
+                                                <div class="text-wrapper-5">Core product range</div>
+                                            </div>
+                                            <div class="link-2">
+                                                <div class="text-wrapper-5">Online Shop</div>
+                                            </div>
+                                            <div class="link-3">
+                                                <div class="text-wrapper-5">All product categories</div>
+                                            </div>
+                                            <div class="link-4">
+                                                <div class="text-wrapper-5">Southeast Asia Selected Products</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="div-footer-links-3">
+                                        <div class="text-wrapper-6">Contact</div>
+                                        <div class="div-2">
+                                            <div class="link-5">
+                                                <div class="text-wrapper-7">Get in touch</div>
+                                            </div>
+                                            <div class="link-5">
+                                                <div class="text-wrapper-5">Press portal</div>
+                                            </div>
+                                            <div class="link-5">
+                                                <div class="text-wrapper-5">Distributors</div>
+                                            </div>
+                                            <div class="link-6">
+                                                <div class="text-wrapper-5">Help and Support</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="div-footer-links-4">
+                                        <div class="text-wrapper-4">Industry segments</div>
+                                        <div class="div-2">
+                                            <div class="link-7">
+                                                <p class="text-wrapper-5">Automotive and tier 1 supplier industry</p>
+                                            </div>
+                                            <div class="link-8">
+                                                <div class="text-wrapper-5">Electronics industry</div>
+                                            </div>
+                                            <div class="link-9">
+                                                <div class="text-wrapper-5">Food processing and packaging</div>
+                                            </div>
+                                            <div class="link-10">
+                                                <p class="text-wrapper-5">Biotech, pharmaceutical and cosmetics
+                                                    industries</p>
+                                            </div>
+                                            <div class="link-11">
+                                                <div class="text-wrapper-5">Chemical industry</div>
+                                            </div>
+                                            <div class="link-12">
+                                                <div class="text-wrapper-5">Water technology</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="div-footer-legal-DP">
+                                <div class="div-left-column">
+                                    <p class="p">© 2023 PT. Festo All rights reserved</p>
+                                </div>
+                                <div class="list">
+                                    <div class="overlap-group-2">
+                                        <div class="item">
+                                            <div class="text-wrapper-8">Imprint</div>
+                                        </div>
+                                        <div class="link-data-protection-wrapper">
+                                            <div class="text-wrapper-8">Data protection</div>
+                                        </div>
+                                        <div class="link-terms-and-wrapper">
+                                            <div class="text-wrapper-8">Terms and conditions</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="text-wrapper-9">Sustainability</div>
+                    </footer>
+                </div>
+                <div class="div-fab-bar">
+                    <div class="button">
+                        <img class="SVG" src="img/svg.svg" />
+                        <div class="div-has-update"></div>
                     </div>
-                    <div class="link-4">
-                        <div class="picture-energy-wrapper">
-                            <img class="picture-energy"
-                                src="img/picture-energy-saving-services-screen-fix496x661-webp.png" />
-                        </div>
-                        <div class="text-wrapper-10">Digitalisation</div>
-                    </div>
-                </div> --}}
-
+                    <img class="img" src="img/button.svg" />
+                </div>
             </div>
             <header class="header">
                 <div class="nav">
@@ -243,103 +272,43 @@
                         </div>
                     </div>
                 </div>
-
                 <div class="div-search-field"></div>
             </header>
-            <div class="text-wrapper-20">WORKSHOP & SEMINAR</div>
-
-
+            <div class="div-row-2">
+                <div class="link-13">
+                    <div class="div-accordion">
+                        <img class="picture-energy"
+                            src="img/picture-energy-saving-services-screen-fix496x661-webp-1.png" />
+                    </div>
+                    <div class="text-wrapper-10">Energy Saving Services</div>
+                </div>
+                <div class="link-14">
+                    <div class="div-accordion">
+                        <img class="picture-energy"
+                            src="img/picture-energy-saving-services-screen-fix496x661-webp-2.png" />
+                    </div>
+                    <div class="text-wrapper-11">Digitalisation</div>
+                </div>
+                <div class="link-13">
+                    <div class="div-accordion">
+                        <img class="picture-energy"
+                            src="img/picture-energy-saving-services-screen-fix496x661-webp-1.png" />
+                    </div>
+                    <div class="text-wrapper-10">Energy Saving Services</div>
+                </div>
+                <div class="link-15">
+                    <div class="link-16">
+                        <div class="div-accordion">
+                            <img class="picture-energy"
+                                src="img/picture-energy-saving-services-screen-fix496x661-webp.png" />
+                        </div>
+                        <div class="text-wrapper-10">Energy Saving Services</div>
+                    </div>
+                    <div class="text-wrapper-12">Highlight AKM</div>
+                </div>
+            </div>
         </div>
     </div>
-
-    <div class="div-footer">
-        <div class="div-footer-links">
-            <div class="div">
-                <div class="div-footer-links-2">
-                    <div class="text-wrapper">Highlights</div>
-                    <div class="div-2">
-                        <div class="link" id="coreProductRange">
-                            <div class="text-wrapper-2">Core product range</div>
-                        </div>
-                        <div class="link" id="online_shop">
-                            <div class="text-wrapper-2">Online Shop</div>
-                        </div>
-                        <div class="link" id="all_products_categories">
-                            <div class="text-wrapper-2">All product categories</div>
-                        </div>
-                        <div class="link" id="southeast_asia_selected_products">
-                            <div class="text-wrapper-2">Southeast Asia Selected Products</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="div-footer-links-2">
-                    <div class="text-wrapper-3">Contact</div>
-                    <div class="div-2">
-                        <div class="link" id="get_in_touch">
-                            <div class="text-wrapper-4">Get in touch</div>
-                        </div>
-                        <div class="link" id="press_portal">
-                            <div class="text-wrapper-2">Press portal</div>
-                        </div>
-                        <div class="link" id="distributors">
-                            <div class="text-wrapper-2">Distributors</div>
-                        </div>
-                        <div class="link" id="help_n_support">
-                            <div class="text-wrapper-2">Help and Support</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="div-footer-links-3">
-                    <div class="text-wrapper">Industry segments</div>
-                    <div class="div-2">
-                        <div class="link" id="automotive_n_tier">
-                            <p class="text-wrapper-2">Automotive and tier 1 supplier industry</p>
-                        </div>
-                        <div class="link" id="electronics_industry">
-                            <div class="text-wrapper-2">Electronics industry</div>
-                        </div>
-                        <div class="link" id="food_n_packaging">
-                            <div class="text-wrapper-2">Food processing and packaging</div>
-                        </div>
-                        <div class="link" id="biotech_n_cosmetics">
-                            <p class="text-wrapper-2">Biotech, pharmaceutical and cosmetics industries</p>
-                        </div>
-                        <div class="link" id="chemical_industry">
-                            <div class="text-wrapper-2">Chemical industry</div>
-                        </div>
-                        <div class="link" id="water_technology">
-                            <div class="text-wrapper-2">Water technology</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="div-footer-legal-DP">
-            <div class="div-left-column">
-                <p class="p">© 2023 PT. Festo All rights reserved</p>
-            </div>
-            <div class="list">
-                <div class="overlap-group">
-                    <div class="item">
-                        <div class="text-wrapper-5">Imprint</div>
-                    </div>
-                    <div class="link-data-protection-wrapper">
-                        <div class="text-wrapper-5">Data protection</div>
-                    </div>
-                    <div class="link-terms-and-wrapper">
-                        <div class="text-wrapper-5">Terms and conditions</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <img class="div-footer-social" src="img/div-footer-social-wlq8h.svg" />
-    </div>
-
-
-    <script src="slider1.js"></script>
-    <script src="slider2.js"></script>
-    <script src="custom.js"></script>
-    <script src="navbar.js"></script>
 </body>
 
 </html>
