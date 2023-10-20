@@ -29,11 +29,8 @@
                             <img class="img" id="slider_kanan1" src="img/svg-1.svg" />
                             @foreach ($mainbox as $main)
                             <div class="div-header-slider-3">
-                                <div class="heading" id="slider_heading">
-                                    <div class="text-wrapper"></div>
-                                </div>
                                 <div class="div-wrapper" id="slider_content">
-                                    <p>{{$main['itemText']}}</p>
+                                    <div class="text-wrapper-2">{{$main['itemText']}}</div>
                                 </div>
                                 <div class="div-divider-xsvco">
                                     <div class="p-copy-text">
