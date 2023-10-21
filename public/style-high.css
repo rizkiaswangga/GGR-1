@@ -22,47 +22,45 @@
   left: 0;
 }
 
-@media (min-width: 500px) {
+  {
+    {}
+}
+
+/* @media screen and (max-width: 768px) {
   .highlight-akm .section {
     display: flex;
     flex-direction: column;
-    width: 1920px;
-    height: 834px;
+    width: auto;
+    height: auto;
     align-items: center;
     padding: 0px 240px 184px;
-    position: absolute;
-    top: 0;
-    left: 0;
+    position: relative;
     background-color: #f2f3f5;
   }
 
   .highlight-akm .div-header-slider {
     position: relative;
-    max-width: 1440px;
-    width: 1440px;
-    height: 440px;
+    max-width: 768px;
+    width: auto;
+    height: auto;
   }
 
   .highlight-akm .div-header-slider-2 {
-    position: absolute;
-    width: 1320px;
-    height: 440px;
-    top: 169px;
-    left: 60px;
+    position: relative;
+    width: auto;
+    height: auto;
     background-image: url(./img/picture-electric-automation-seamless-connectivity-screen-fix18.png);
     background-size: 100% 100%;
-  }
+  }{{  }}
 
   .highlight-akm .div-card-container {
     display: flex;
     flex-direction: column;
-    width: 976px;
-    height: 222px;
+    width: auto;
+    height: auto;
     align-items: flex-start;
     padding: 24px 96px 44px;
-    position: absolute;
-    top: 547px;
-    left: 232px;
+    position: relative;
     background-color: #ffffff;
     border-radius: 4px;
     box-shadow: 0px 1px 8px #b6bec6;
@@ -77,13 +75,11 @@
 
   .highlight-akm .div-wrapper {
     padding: 0px 354px 0px 0px;
-    top: 24px;
     display: flex;
     flex-direction: column;
-    width: 784px;
+    width: auto;
     align-items: flex-start;
-    position: absolute;
-    left: 0;
+    position: relative;
   }
 
   .highlight-akm .text-wrapper-2 {
@@ -101,19 +97,17 @@
 
   .highlight-akm .div-divider-xsvco {
     display: flex;
-    width: 546px;
+    width: auto;
     align-items: flex-start;
     justify-content: space-around;
     gap: 24px;
-    position: absolute;
-    top: 82px;
-    left: 0;
+    position: relative;
   }
 
   .highlight-akm .p-copy-text {
     display: inline-flex;
     flex-direction: column;
-    height: 72px;
+    height: auto;
     align-items: flex-start;
     padding: 0px 32px 0px 0px;
     position: relative;
@@ -138,10 +132,8 @@
   }
 
   .highlight-akm .text-wrapper-3 {
-    position: absolute;
-    height: 32px;
-    top: 66px;
-    left: 745px;
+    position: relative;
+    height: auto;
     font-family: "ABeeZee", Helvetica;
     font-weight: 400;
     color: #333333;
@@ -151,7 +143,7 @@
     line-height: 32px;
     white-space: nowrap;
   }
-}
+} */
 
 .highlight-akm .section {
   display: flex;

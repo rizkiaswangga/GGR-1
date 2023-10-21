@@ -2,172 +2,203 @@
 <html>
 
 <head>
-    <link rel="stylesheet" href="globals.css" />
-    <link rel="stylesheet" href="styleguide.css" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="globals-main.css" />
+    <link rel="stylesheet" href="styleguide-main.css" />
+    <link rel="stylesheet" href="style-main.css" />
     <link rel="stylesheet" href="navbar.css" />
 </head>
 
 <body>
     <div class="main-page">
         <div class="div">
-
-            <div class="section">
-                <div class="div-header-slider">
-                    <div class="div-header-slider-2"></div>
-                    <div class="div-card-container">
-                        <div class="list" id="list-container">
-                            <!-- List items will be dynamically generated here -->
-                        </div>
-                        <img class="SVG" id="slider_kiri1" src="img/svg-2.svg" />
-                        <img class="img" id="slider_kanan1" src="img/svg-1.svg" />
-                        @foreach ($mainbox as $main)
-                        <div class="div-header-slider-3">
-                            <div class="div-wrapper" id="slider_content">
-                                <div class="text-wrapper-2">{{$main['itemText']}}</div>
-                            </div>
-                            <div class="div-divider-xsvco">
-                                <div class="p-copy-text">
-                                    <p class="would-you-like-easy" id="slider_paragraph">{{$main['itemDesc']}}</p>
-                                </div>
-                                <button class="button" id="fom1">
-                                    <div class="text-wrapper-3">Find out more</div>
-                                </button>
+            <div class="overlap">
+                <div class="section">
+                    <div class="div-header-slider">
+                        <div class="overlap-group">
+                            <div class="div-header-slider-2"></div>
+                            <div class="div-card-container">
+                                @foreach ($mainbox as $main)
+                                    <div class="div-header-slider-3">
+                                        <div class="heading"></div>
+                                        <div class="div-wrapper">
+                                            <div class="text-wrapper"><I>{{ $main['itemText'] }}</I></div>
+                                        </div>
+                                        <div class="div-divider-xsvco">
+                                            <div class="p-copy-text">
+                                                <p class="would-you-like-easy">{{ $main['itemDesc'] }}</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                @endforeach
                             </div>
                         </div>
-                        @endforeach
-
                     </div>
                 </div>
-            </div>
-            <div class="div-fab-bar">
-                <div class="button-2">
-                    <img class="SVG-2" src="img/svg.svg" />
-                    <div class="div-has-update"></div>
+                <div class="div-fab-bar">
+                    <div class="button">
+                        <img class="SVG" src="img/svg.svg" />
+                        <div class="div-has-update"></div>
+                    </div>
+                    <img class="img" src="img/button.svg" />
                 </div>
-                <img class="button-3" src="img/button.svg" />
             </div>
-
             <div class="section-2">
-                <div class="div-application">
+                <div class="overlap-2">
                     <div class="div-row">
                         @foreach ($mainbox as $main)
-                        <div class="div-col-xs">
-                            <div class="text-wrapper-4">{{$main['itemText']}}</div>
-                            <div class="p-copytext">
-                                <p class="docker-is-a-tool-for">{{$main['itemDesc']}}</p>
+                            <div class="div-col-xs">
+                                <div class="text-wrapper-2">{{ $main['itemText'] }}</div>
+                                <div class="p-copytext">
+                                    <p class="docker-is-a-tool-for">{{ $main['itemDesc'] }}</p>
+                                </div>
+                            </div>
+                            <div class="picture-key-wrapper">
+                                <img class="picture-key"
+                                    src="img/picture-key-automation-products-highres-en-1-fix696x391-webp.png" />
+                            </div>
+                            <div class="text-wrapper-3">NEWS</div>
+                        @endforeach
+                    </div>
+                    <div class="group">
+                        <div class="div-slick-list-wrapper">
+                            <div class="div-slick-list">
+                                <div class="div-slick-track">
+                                    <div class="link">
+                                        <div class="div-card-image"><img class="d"
+                                                src="img/d15000100116717-264x198-jpg.png" /></div>
+                                        <div class="p-card-name-azoxw">
+                                            <div class="text-wrapper-4">Robot</div>
+                                        </div>
+                                    </div>
+                                    <div class="link">
+                                        <div class="div-card-image"><img class="d"
+                                                src="img/d15000100155226-264x198-jpg.png" /></div>
+                                        <div class="frame-wrapper">
+                                            <div class="frame">
+                                                <div class="text-wrapper-4">AGV</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="link">
+                                        <div class="div-card-image"><img class="d"
+                                                src="img/d15000100144958-264x198-jpg.png" /></div>
+                                        <div class="p-card-name-azoxw-2">
+                                            <div class="text-wrapper-4">PLC Trainer</div>
+                                        </div>
+                                    </div>
+                                    <div class="link">
+                                        <div class="div-card-image"><img class="d"
+                                                src="img/d15000100115633-264x198-jpg.png" /></div>
+                                        <div class="p-card-name-azoxw-3">
+                                            <div class="text-wrapper-5">Mec Lab Non PLC</div>
+                                        </div>
+                                    </div>
+                                    <img class="button-SVG" src="img/button-svg-1.svg" />
+                                    <img class="button-SVG-2" src="img/button-svg.svg" />
+                                </div>
                             </div>
                         </div>
-                        @endforeach
-                        <div class="overlap-group">
-                            <img class="picture-key" src="img/picture-key-automation-products-highres-en-1-fix696x391-webp.png" />
-                        </div>
-                    </div>
-                    <div class="link" id="fom2">
-                        <div class="text-wrapper-5">Find out more</div>
+                        <div class="text-wrapper-6">Category</div>
                     </div>
                 </div>
                 <div class="div-row-2">
-                    <a href="/pic1" id="foto1" class="link-2">
-                        <div class="picture-energy-wrapper">
-                            <img class="picture-energy" src="img/picture-energy-saving-services-screen-fix496x661-webp-1.png" alt="Sustainability Image" />
+                    <div class="link-2">
+                        <div class="div-accordion">
+                            <img class="picture-energy"
+                                src="img/picture-energy-saving-services-screen-fix496x661-webp-3.png" />
                         </div>
-                        <div class="text-wrapper-9">Sustainability</div>
-                    </a>
-                    <a href="/pic2" id="foto2" class="link-3">
-                        <div class="picture-energy-wrapper">
-                            <img class="picture-energy" src="img/picture-energy-saving-services-screen-fix496x661-webp-1.png" alt="Sustainability Image" />
+                        <div class="text-wrapper-7">Energy Saving Services</div>
+                    </div>
+                    <div class="link-2">
+                        <div class="div-accordion">
+                            <img class="picture-energy"
+                                src="img/picture-energy-saving-services-screen-fix496x661-webp.png" />
                         </div>
-                        <div class="text-wrapper-9">Sustainability</div>
-                    </a>
-
-                    <a href="/pic3" id="foto3" class="link-4">
-                        <div class="picture-energy-wrapper">
-                            <img class="picture-energy" src="img/picture-energy-saving-services-screen-fix496x661-webp.png" alt="Digitalisation Image" />
+                        <div class="text-wrapper-7">Sustainability</div>
+                    </div>
+                    <div class="link-3">
+                        <div class="div-accordion">
+                            <img class="picture-energy"
+                                src="img/picture-energy-saving-services-screen-fix496x661-webp-1.png" />
                         </div>
-                        <div class="text-wrapper-10">Digitalisation</div>
-                    </a>
-
-                    <a href="/pic4" id="foto4" class="link-3">
-                        <div class="picture-energy-wrapper">
-                            <img class="picture-energy" src="img/picture-energy-saving-services-screen-fix496x661-webp-1.png" alt="Sustainability Image" />
+                        <div class="text-wrapper-8">Digitalisation</div>
+                    </div>
+                    <div class="link-2">
+                        <div class="div-accordion">
+                            <img class="picture-energy"
+                                src="img/picture-energy-saving-services-screen-fix496x661-webp.png" />
                         </div>
-                        <div class="text-wrapper-9">Sustainability</div>
-                    </a>
+                        <div class="text-wrapper-7">Sustainability</div>
+                    </div>
                 </div>
                 <div class="div-row-3">
                     <div class="div-half-width">
-                        <div class="text-wrapper-11"></div>
-                        <a href="your_link_here.html">
-                            <div class="div-image-text-wrapper" id="papso_btn">
-                                <div class="div-image-text">
-                                    <div class="div-image-text-2"></div>
-                                    <div class="div-image-text-3">
-                                        <div class="p-image-text-teaser">
-                                            <div class="text-wrapper-12">PAPSO Brochure</div>
+                        <div class="text-wrapper-9">Industrial Automation</div>
+                        <div class="div-image-text-wrapper">
+                            <div class="div-image-text">
+                                <div class="div-image-text-2"></div>
+                                <div class="div-image-text-3">
+                                    <div class="p-image-text-teaser">
+                                        <div class="text-wrapper-10">PAPSO Brochure</div>
+                                    </div>
+                                    <div class="p-copytext-margin">
+                                        <div class="p-copytext-2">
+                                            <p class="text-wrapper-11">Automation systems from a single source</p>
                                         </div>
-                                        <div class="p-copytext-margin">
-                                            <div class="p-copytext-3">
-                                                <p class="text-wrapper-13">Automation systems from a single source</p>
-                                            </div>
-                                        </div>
-                                        <div class="span-text-link">
-                                            <div class="text-wrapper-14">Find out more</div>
-                                        </div>
+                                    </div>
+                                    <div class="span-text-link">
+                                        <div class="text-wrapper-12">Find out more</div>
                                     </div>
                                 </div>
                             </div>
-                        </a>
-
-                        <a href="your_link_here.html" id="products_btn" class="link-5">
+                        </div>
+                        <div class="link-4">
                             <div class="div-image-text">
                                 <div class="div-image-text-4"></div>
                                 <div class="div-image-text-3">
                                     <div class="p-image-text-teaser-2">
-                                        <div class="text-wrapper-15">SP2020</div>
+                                        <div class="text-wrapper-13">SP2020</div>
                                     </div>
                                     <div class="p-copytext-margin">
-                                        <div class="p-copytext-4">
-                                            <p class="text-wrapper-13">Products for everyday automation needs</p>
+                                        <div class="p-copytext-3">
+                                            <p class="text-wrapper-11">Products for everyday automation needs</p>
                                         </div>
                                     </div>
                                     <div class="span-text-link">
-                                        <div class="text-wrapper-14">Find out more</div>
+                                        <div class="text-wrapper-12">Find out more</div>
                                     </div>
                                 </div>
                             </div>
-                        </a>
-
+                        </div>
                     </div>
                     <div class="div-half-width-2">
-                        <div class="text-wrapper-16">Distributors</div>
-                        <div class="link-3">
+                        <div class="text-wrapper-14">Distributors</div>
+                        <div class="link-2">
                             <div class="festo-official"></div>
                             <div class="div-half-width-image">
                                 <div class="p-image-teaser-main">
-                                    <div class="text-wrapper-12">Sales Partners</div>
+                                    <div class="text-wrapper-10">Sales Partners</div>
                                 </div>
-                                <div class="p-copytext-5">
-                                    <p class="text-wrapper-13">Close to you, close to Festo</p>
+                                <div class="p-copytext-4">
+                                    <p class="text-wrapper-11">Close to you, close to Festo</p>
                                 </div>
-                                <button class="button-5">
-                                    <div class="text-wrapper-17">Find your local Distributor</div>
+                                <button class="button-2">
+                                    <div class="text-wrapper-15">Find your local Distributor</div>
                                 </button>
                             </div>
                         </div>
                     </div>
+                    <div class="text-wrapper-16">MARKETING</div>
                 </div>
-                <div class="text-wrapper-18">MARKETING</div>
             </div>
             <header class="header">
                 <div class="nav">
-                    <div class="div-navigation-aside">
-                        <img class="link-logo-blue-svg" src="img/link-logo-blue-svg.png" />
-                    </div>
+                    <div class="div-navigation-aside"><img class="link-logo-blue-svg"
+                            src="img/link-logo-blue-svg.png" /></div>
                     <div class="div-jsx-main">
-                        <div class="item-margin-wrapper">
-                            <div class="item-wrapper">
-                                <div class="list-wrapper">
+                        <div class="list">
+                            <div class="item-margin">
+                                <div class="item">
                                     <div class="list-2">
                                         <div class="item-link">
                                             <div class="text-wrapper-19">Corporate</div>
@@ -298,57 +329,99 @@
                         </div>
                     </div>
                 </div>
+                <div class="div-search-field"></div>
             </header>
-
-            <div class="text-wrapper-20">NEWS</div>
-
-            <div class="overlap-2">
-                <div class="section-3">
-                    <br>
-                    <div class="div-slider-cupfd">
-                        <div class="div-slick-slider">
-                            <div class="div-slick-list">
-                                <div class="div-slick-track">
-                                    <div class="link-18">
-                                        <div class="div-card-image"><img class="d" src="img/d15000100116717-264x198-jpg.png" /></div>
-                                        <div class="p-card-name-azoxw">
-                                            <div class="text-wrapper-26">Actuators</div>
-                                        </div>
+            <footer class="footer">
+                <div class="div-footer">
+                    <div class="div-footer-links">
+                        <div class="div-footer-links-2">
+                            <div class="div-footer-links-3">
+                                <div class="text-wrapper-18">Highlights</div>
+                                <div class="div-2">
+                                    <div class="link-5">
+                                        <div class="text-wrapper-11">Core product range</div>
                                     </div>
-                                    <div class="link-18">
-                                        <div class="div-card-image"><img class="d" src="img/d15000100155226-264x198-jpg.png" /></div>
-                                        <div class="motors-and-servo-wrapper">
-                                            <div class="motors-and-servo">Motors and servo<br />drives</div>
-                                        </div>
+                                    <div class="link-6">
+                                        <div class="text-wrapper-11">Online Shop</div>
                                     </div>
-                                    <div class="link-18">
-                                        <div class="div-card-image"><img class="d" src="img/d15000100144958-264x198-jpg.png" /></div>
-                                        <div class="p-card-name-azoxw-2">
-                                            <div class="text-wrapper-26">Industrial robots</div>
-                                        </div>
+                                    <div class="link-7">
+                                        <div class="text-wrapper-11">All product categories</div>
                                     </div>
-                                    <div class="link-18">
-                                        <div class="div-card-image"><img class="d" src="img/d15000100115633-264x198-jpg.png" /></div>
-                                        <div class="p-card-name-azoxw-3">
-                                            <div class="text-wrapper-27">Sensors</div>
-                                        </div>
+                                    <div class="link-8">
+                                        <div class="text-wrapper-11">Southeast Asia Selected Products</div>
                                     </div>
-                                    <img class="button-SVG" id="slider_kiri2" src="img/button-svg-1.svg" />
-                                    <img class="button-SVG-2" id="slider_kanan2" src="img/button-svg.svg" />
+                                </div>
+                            </div>
+                            <div class="div-footer-links-3">
+                                <div class="text-wrapper-19">Contact</div>
+                                <div class="div-2">
+                                    <div class="link-9">
+                                        <div class="text-wrapper-20">Get in touch</div>
+                                    </div>
+                                    <div class="link-9">
+                                        <div class="text-wrapper-11">Press portal</div>
+                                    </div>
+                                    <div class="link-9">
+                                        <div class="text-wrapper-11">Distributors</div>
+                                    </div>
+                                    <div class="link-10">
+                                        <div class="text-wrapper-11">Help and Support</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="div-footer-links-4">
+                                <div class="text-wrapper-18">Industry segments</div>
+                                <div class="div-2">
+                                    <div class="link-11">
+                                        <p class="text-wrapper-11">Automotive and tier 1 supplier industry</p>
+                                    </div>
+                                    <div class="link-12">
+                                        <div class="text-wrapper-11">Electronics industry</div>
+                                    </div>
+                                    <div class="link-13">
+                                        <div class="text-wrapper-11">Food processing and packaging</div>
+                                    </div>
+                                    <div class="link-14">
+                                        <p class="text-wrapper-11">Biotech, pharmaceutical and cosmetics industries</p>
+                                    </div>
+                                    <div class="link-15">
+                                        <div class="text-wrapper-11">Chemical industry</div>
+                                    </div>
+                                    <div class="link-16">
+                                        <div class="text-wrapper-11">Water technology</div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+                    <div class="div-footer-legal-DP">
+                        <div class="div-left-column">
+                            <p class="p">© 2023 PT. Festo All rights reserved</p>
+                        </div>
+                        <div class="overlap-group-wrapper">
+                            <div class="overlap-group-2">
+                                <div class="link-imprint-wrapper">
+                                    <div class="text-wrapper-21">Imprint</div>
+                                </div>
+                                <div class="link-data-protection-wrapper">
+                                    <div class="text-wrapper-21">Data protection</div>
+                                </div>
+                                <div class="link-terms-and-wrapper">
+                                    <div class="text-wrapper-21">Terms and conditions</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="div-footer-social">
+                        <div class="link-SVG"><img class="vector" src="img/vector.png" /></div>
+                        <img class="link-SVG-2" src="img/link-svg-2.png" />
+                        <img class="link-SVG-2" src="img/link-svg-1.png" />
+                        <img class="link-SVG-2" src="img/link-svg.png" />
+                    </div>
                 </div>
-                <div class="text-wrapper-28">CATEGORY</div>
-
-            </div>
+            </footer>
         </div>
     </div>
-    <script src="slider1.js"></script>
-    <script src="slider2.js"></script>
-    <script src="custom.js"></script>
-    <script src="navbar.js"></script>
 </body>
 
 </html>
