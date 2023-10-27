@@ -11,8 +11,9 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::table('mainbox', function (Blueprint $table) {
-            //
+                Schema::table('mainbox', function (Blueprint $table) {
+            $table->string('itemImg')->nullable()->change();
+            $table->string('compt')->nullable()->change();
         });
     }
 
@@ -21,9 +22,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::table('mainbox', function (Blueprint $table) {
-            //
-            $table->dropColumn('itemImg');
-        });
+        //
     }
 };

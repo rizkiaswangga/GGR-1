@@ -4,6 +4,7 @@ use App\Http\Controllers\ourProductcontroller;
 use App\Http\Controllers\productController;
 use App\Http\Controllers\mainController;
 use App\Http\Controllers\uploadController;
+use App\Http\Controllers\uploadEduController;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\DB;
 /*
@@ -108,6 +109,11 @@ Route::get('/si', function () {
 Route::view('add', 'upload');
 
 Route::post('add', [uploadController::class, 'upload']);
+
+Route::view('add2', 'upload-edu');
+
+Route::post('add2', [uploadEduController::class, 'upload_edu']);
+
 
 Route::get('product', [productController::class, 'show']);
 Route::get('robot', [ourProductcontroller::class, 'showrobot']);
