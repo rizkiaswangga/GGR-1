@@ -13,6 +13,7 @@ class uploadEduController extends Controller
         $req->validate([
             'itemText' => 'required|string',
             'itemDesc' => 'required|string',
+            'itemTo' => 'required|string',
         ]);
 
         // Create a new uploadModel instance and set the table name
@@ -23,7 +24,7 @@ class uploadEduController extends Controller
         // Set the text and description
         $uploadModel_Edu->itemText = $req->input('itemText');
         $uploadModel_Edu->itemDesc = $req->input('itemDesc');
-        $uploadModel_Edu->itemTo = "training";
+        $uploadModel_Edu->itemTo = $req->input('itemAbbrev');
 
         // Save the data to the specified table
         $uploadModel_Edu->save();
